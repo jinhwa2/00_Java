@@ -1,0 +1,17 @@
+package sup1.controller;
+
+import java.util.Scanner;
+
+import sup1.model.Student;
+
+public class TestSup2 {
+ //Scanner 를 이용해서 이름 학년 반 번호 성별 성적
+	public static void main(String[] args) {
+		Student 학생 = new Student(이름,학년,반,번호,성별,성적);
+		Scanner 스캐너 = new Scanner(System.in);
+		System.out.println("학생의 이름은: ");
+		
+		
+		
+	}
+}

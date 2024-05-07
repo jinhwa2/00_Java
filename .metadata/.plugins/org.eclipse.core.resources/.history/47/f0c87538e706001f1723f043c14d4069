@@ -1,0 +1,55 @@
+package com.kh.SetEx;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+
+
+
+
+
+public class TreeSetPre {
+//main
+	public static void main(String[] args) {
+		//과일들 String "키워 복숭아 참외 수박 딸기"
+		                        //Set.of(""	,"","",)
+		TreeSet<String> 과일들 = new TreeSet<>(Set.of("키위","복숭아","참외","수박","딸기"));
+		System.out.println(과일들);
+		
+	//복숭아 제거
+		과일들.remove("복숭아");
+		System.out.println(과일들);
+		
+		//수박이 포함되어 있는지 확인
+		System.out.println(과일들.contains("수박"));
+		
+		//과일들 이 비어 있는지 확인
+		System.out.println(과일들.isEmpty()s);
+		
+		
+		//과일들 개수
+	
+		
+		//가장 작은값
+		
+		
+		//가장 큰 값
+	
+		
+		//모든 값 제거
+		
+		
+		
+		//모든 값 제거 되어 있는지 확인
+		
+	
+	
+	
+	
+	
+	}
+	
+	
+	
+	
+}

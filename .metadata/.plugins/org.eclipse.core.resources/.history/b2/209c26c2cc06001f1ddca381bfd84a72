@@ -1,0 +1,9 @@
+package ncs.test10;
+
+public class BookStore {
+//main 메서드
+	public static void main(String[] args) {
+		Book 책정보;
+		BookUPdate 정보수정;
+	}
+}

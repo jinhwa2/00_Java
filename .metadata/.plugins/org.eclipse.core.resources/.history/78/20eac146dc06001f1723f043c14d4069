@@ -1,0 +1,26 @@
+package com.kh.oop.method.ex;
+
+public class PizzaStore {
+ //필드
+	private String pizaaName;  //피자이름
+	private int pizzaPrice;  //피자가격
+//메서드 
+	//Setter
+	public void setPizaaName(String pizaaName) {
+		this.pizaaName = pizaaName;
+	}
+	public void setPizzaPrice(int pizzaPrice) {
+		this.pizzaPrice = pizzaPrice;
+	}
+	//Getter
+	public String getPizaaName() {
+		return pizaaName;
+	}
+	public int getPizzaPrice() {
+		return pizzaPrice;
+	}
+	
+	
+	
+	
+}

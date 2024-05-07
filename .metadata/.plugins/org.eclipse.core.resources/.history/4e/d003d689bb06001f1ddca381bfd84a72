@@ -1,0 +1,28 @@
+package sup1.model;
+
+public class Score {
+//필드
+	public int korean;
+	public int english;
+	public int math;
+	public int total;
+	public double avg;
+	
+	
+//메서드
+	//필수 생성자
+	public Score(int korean,int english,int math,int total,double avg) {
+		
+	}
+	
+	//void
+	public void 결과() {
+		총점 = 국어 + 영어 + 수학;
+		평균 = 총점 /3.0;
+		//평균 50점 이상이면 합격
+		//삼항연산자로 합격 불합격
+		// 각 점수가 50 이상 평균 50점 이상
+		//출력문으로 국어영어 수학점수랑
+		//삼항연산자에 대한 결가 출력
+	}
+}

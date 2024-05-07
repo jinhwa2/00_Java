@@ -1,0 +1,14 @@
+package sup1.controller;
+
+import java.util.Scanner;
+
+public class TestUSup1 {
+
+	
+	Scanner sc = new Scanner(Shstem.in);
+	//스캐너 이용해서
+	//국어점수 영어점수 수학점수 입력받고
+	
+	//Score 점수 = new Score(국어,영어,수학)
+	점수.결과();
+}

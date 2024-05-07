@@ -1,0 +1,23 @@
+package com.kh.SocketEx;
+
+import java.io.IOException;
+import java.net.Socket;
+import java.net.UnknownHostException;
+
+//파티참가자
+public class ClietEx {
+	public static void main(String[] args) {
+		
+		
+		try {
+			//                      localhost = 127.0.0.1은 내켬퓨터주소라는 의미
+			//                       접속하고자하는 컴퓨터 주소 , 서버의포트번호
+			Socket 참가자 = new Socket("lacalhost" ,12350  );
+		
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+}

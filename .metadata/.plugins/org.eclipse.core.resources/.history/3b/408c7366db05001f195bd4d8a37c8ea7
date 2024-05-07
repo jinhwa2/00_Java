@@ -1,0 +1,38 @@
+package com.kh.SocketEx;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class ServerPre {
+	public static void main(String[] args) {
+		try {
+			ServerSocket j = new ServerSocket(12355);
+			System.out.println("party chat open");
+			
+			Socket s = j.accept();
+			System.out.println("client sueccee");
+			
+	BufferedReader in = new BufferedReader(new InputStreamReader(s.getInputStream()));
+	
+	PrintWriter out = new PrintWriter(s.getOutputStream(),true);
+	
+	out.println("hello jinhwa");
+	//참가자에게 받은 메세지 수신 및 출력
+	String mm;
+	
+	while((mm = in.readLine()) != null)	{
+		System.out.println("send sussess :"+mm);
+		
+		out.println("jjjjj iiiiiii nnnnnnn hhhhhhh wwww aaa");
+	}
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}
